@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-template-library
+  annotations:
+    github.com/project-slug: fhir-poc/backstage-scaffold-templates
+spec:
+  type: other
+  lifecycle: development
+  owner: cluster-admin
