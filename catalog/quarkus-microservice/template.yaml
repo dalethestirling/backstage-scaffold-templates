@@ -92,8 +92,7 @@ spec:
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
-              - gitea.com
-              - localhost:3333
+              - dev.azure.com
 
   steps:
     - id: template
